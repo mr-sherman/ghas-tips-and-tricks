@@ -6,6 +6,13 @@
 ### Intro
 Code Scanning is freely available for use in public repositories.  You should try it out.  Learn about application security and how to write secure code by cloning a free, vulnerable repository.  Then scan it using GitHub Advanced Security and fix the problems.  
 
+Here are some good vulnerable open source repositories you can clone to give code scanning a try:
+ - [NodeGoat](https://github.com/OWASP/NodeGoat)
+ - [WebGoat](https://github.com/WebGoat/WebGoat)
+ - [DotNetGoat](https://github.com/jerryhoff/WebGoat.NET)
+ - [Pygoat](https://github.com/adeyosemanputra/pygoat)
+ - [JuiceShop](https://github.com/juice-shop/juice-shop.git)
+
 If you're an open source project maintainer on GitHub, you should definitely enable it if your project is using a supported language.  You may already be using a free static analyzer (SAST) - great.  If it outputs to SARIF, you can use both and integrate it with the Security Dashboard.  I think you'll find the results from GHAS Code Scanning to be compelling.  
 
 ### Code Scanning Setup Guide
